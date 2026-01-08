@@ -72,7 +72,7 @@ public class MainController extends HttpServlet {
             if (!checkError) {
                 out.println(a + txtOp + b + "= <b>" + result + "</b>");
             } else {
-                out.println("Xay ra loi trong qua trinh xu ly!");
+                out.println("Xay ra loi trong qua trinh xu ly!" );
             }
 
         
